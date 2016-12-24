@@ -1,0 +1,15 @@
+1. Chapter 1
+==============
+Nothing special - only database structure
+
+symfony new ecommerce
+
+2. Chapter 2
+=============
+1. We have two entry points for our app (prod and dev) - found in web folder called app.php and app_dev.php.
+app_dev.php contains the debug bar and we get a verbose error log on screen while in development.
+
+2. php bin/console to show all available console commands
+- Delete the default AppBundle created for us and remove references in both AppKernel.php and routing.yml
+- php bin/console generate:bundle => MainBundle
+http://localhost:8000/app_dev.php now displays Hello World.

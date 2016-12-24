@@ -1,0 +1,2 @@
+1. Disable CTRL+ALT+L Lubuntu as this suspends user.
+2. localhost:8000/config.php: install and enable necessary configurations.
