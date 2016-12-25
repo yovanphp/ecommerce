@@ -1,0 +1,4 @@
+services:
+#    page.example:
+#        class: Pages\PageBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

@@ -1,0 +1,23 @@
+1. For other chapters please see the intro_symfony branch on github.
+
+2. Chapter 5 - Ecommerce template
+==================================
+1. Delete unnecessary bundles if any and clean up code where necessary.
+2. Create two bundles - Ecommerce/FrontBundle and Ecommerce/BackBundle.
+3. On the frontend
+    - We display a list of products
+    - Sort by Category
+    - Search products
+    - Subscribe
+    - Shopping cart
+    - Invoice and delivery addresses
+    - Payment
+
+a. Rename the DefaultController to CartController and create a new ProductController.
+b. Define the proper routes, controller actions and create appropriate views.
+c. Modify base.html.twig to include proper css and js assets and navigation header and page footer.
+d. Our twig views extend the base.html.twig files and we test our responsive pages.
+
+e. Create the necesseray routes, controller actions and views for a proper navigation in our front app.
+f. Create a Pages/PageBundle for dynamic information pages.
+

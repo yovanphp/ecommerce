@@ -1,9 +1,9 @@
 <?php
 
-namespace AppBundle;
+namespace Pages\PageBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class AppBundle extends Bundle
+class PageBundle extends Bundle
 {
 }

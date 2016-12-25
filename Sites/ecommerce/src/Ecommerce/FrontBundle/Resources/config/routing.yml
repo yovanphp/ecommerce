@@ -1,0 +1,19 @@
+cart_index:
+    path:     /cart
+    defaults: { _controller: FrontBundle:Cart:index }
+
+cart_delivery:
+    path:     /cart/delivery
+    defaults: { _controller: FrontBundle:Cart:delivery }
+
+cart_validation:
+    path:     /cart/validation
+    defaults: { _controller: FrontBundle:Cart:validation }
+
+product_index:
+    path:     /
+    defaults: { _controller: FrontBundle:Product:index }
+
+product_details:
+    path:     /{id}
+    defaults: { _controller: FrontBundle:Product:details }
