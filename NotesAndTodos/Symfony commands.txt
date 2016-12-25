@@ -1,0 +1,11 @@
+1. Show our routes
+php bin/console debug:router
+
+1. First we must create a database
+php bin/console doctrine:database:create
+
+2. Generate an entity
+php bin/console doctrine:generate:entity
+
+3. Create the table
+php bin/console doctrine:schema:update --force

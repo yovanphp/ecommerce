@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <ul class="product">
+        {% for product in products %}
+            <li><img src="{{ asset(product.image) }}" alt="{{ product.name }}"></li>
+            <li>Name: {{ product.name }}</li>
+            <li>Description: {{ product.description }}</li>
+            <li>Price: {{ product.price }}</li>
+            <li>Is available: {{ product.isAvailable }}</li>
+            <li>Category: {{ product.category }}</li>
+            <li>Vat: {{ product.vat }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

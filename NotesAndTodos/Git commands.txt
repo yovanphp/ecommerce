@@ -1,0 +1,5 @@
+Create new branch and merge branch with master
+-----------------------------------------------
+git checkout -b new_branch
+git checkout master
+git merge new_branch

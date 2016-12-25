@@ -1,6 +1,6 @@
 page:
     resource: "@PageBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /pages
 
 back:
     resource: "@BackBundle/Resources/config/routing.yml"

@@ -18,6 +18,6 @@ b. Define the proper routes, controller actions and create appropriate views.
 c. Modify base.html.twig to include proper css and js assets and navigation header and page footer.
 d. Our twig views extend the base.html.twig files and we test our responsive pages.
 
-e. Create the necesseray routes, controller actions and views for a proper navigation in our front app.
+e. Create the necessary routes, controller actions and views for a proper navigation in our front app.
 f. Create a Pages/PageBundle for dynamic information pages.
 
