@@ -21,3 +21,11 @@ d. Our twig views extend the base.html.twig files and we test our responsive pag
 e. Create the necesseray routes, controller actions and views for a proper navigation in our front app.
 f. Create a Pages/PageBundle for dynamic information pages.
 
+3. Chapter 6
+==============
+A brief intro to doctrine.
+
+php bin/console doctrine:database:create
+php bin/console doctrine:generate:entity => MyBundle:Employee
+php bin/console doctrine:schema:update --force
+
