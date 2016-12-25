@@ -13,3 +13,13 @@ app_dev.php contains the debug bar and we get a verbose error log on screen whil
 - Delete the default AppBundle created for us and remove references in both AppKernel.php and routing.yml
 - php bin/console generate:bundle => MainBundle
 http://localhost:8000/app_dev.php now displays Hello World.
+
+We can define the path like /ecommerce with path variables for example /ecommerce/{name}
+
+3. Chapter 3
+=============
+See my previous code for twig on github and review it all.
+
+4. Chapter 4
+==============
+See my previous code on github and review it all.
